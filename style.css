@@ -218,4 +218,13 @@ a /* header links color */ {
 /* section four code ends */
 
 
-/* header code below */
+/* footer code below */
+.footer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #1f2937;
+    padding: 40px;
+    color: #f9faf8;
+}
+/* footer code ends */

@@ -13,9 +13,10 @@ button {
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
-    padding: 8px 32px;
+    padding: 6px 32px;
     max-width: fit-content;
-    border: 0;
+    border: 2px;
+    border-style: solid;
 }
 
 a /* header links color */ {
@@ -24,14 +25,21 @@ a /* header links color */ {
     text-decoration: none;
 }
 
-.blue /* blue button */ {
+.blue /* blue button, white text */ {
     background-color: #3882f6;
     color: #f9faf8;
+    border-color: #3882f6;
+}
+
+.white /* blue button, white text, white border */ {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-color: #f9faf8;
 }
 /* general page styling ends */
 
 
-/* code for header below */ 
+/* header code below */ 
 .header {
     background-color: #1f2937;
     display: flex;
@@ -173,3 +181,41 @@ a /* header links color */ {
 
 
 /* section four code below */ 
+.section-four {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 128px 0;
+}
+
+.blue-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: #f9faf8;
+    background-color: #3882f6;
+    padding: 48px 128px;
+    border-radius: 8px;
+}
+
+.cta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0;
+    color: #e5e7eb;
+}
+
+.h3 {
+    margin: 0;
+    color: #f9faf8;
+}
+
+.sign-up {
+    align-self: center;
+    padding-left: 150px;
+}
+/* section four code ends */
+
+
+/* header code below */
